@@ -1,0 +1,29 @@
+* { box-sizing: border-box; }
+.item {
+    position: relative;
+    float: left;
+    border: thin solid rgb(234, 234, 238);
+    color: white;
+    padding: 1em;
+  }
+  #menu {
+    background-color: black;
+  }
+  
+  /* CLEARFIX */
+  #menu:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .subitem { border: thin solid red; }
+  
+  .submenu { display: none;}
+  
+  .item:hover > .submenu {
+    position: absolute;
+    display: block;
+    width: auto;
+    
+  }
