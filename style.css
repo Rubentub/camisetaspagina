@@ -1,13 +1,11 @@
-* { box-sizing: border-box; }
 .item {
     position: relative;
-    float: left;
-    border: thin solid rgb(234, 234, 238);
-    color: white;
+    color: rgb(116, 113, 113);
     padding: 1em;
-  }
+    left: 20em;
+    }
   #menu {
-    background-color: black;
+    background-color: white;
   }
   
   /* CLEARFIX */
@@ -17,13 +15,86 @@
     clear: both;
   }
   
-  .subitem { border: thin solid red; }
   
   .submenu { display: none;}
   
   .item:hover > .submenu {
     position: absolute;
     display: block;
-    width: auto;
-    
+    width: auto; 
   }
+  .bandera-españa{
+    width: 2em;
+    height: 2em;
+  }
+  .bandera-reino-unido{
+    width: 2em;
+    height: 2em;
+  }
+  .item-2{
+    position: relative;
+    color: rgb(116, 113, 113);
+    padding: 1em;
+    left: 32em;
+    bottom: 3em;
+  }
+  .item-2:hover > .submenu{
+    position: absolute;
+    display: block;
+    width: auto; 
+  }
+  .item-3{
+    position: relative;
+    color: rgb(116, 113, 113);
+    padding: 1em;
+    left: 70em;
+    bottom: 6em;
+  }
+  .item-4{
+    position: relative;
+    color: rgb(116, 113, 113);
+    padding: 1em;
+    left: 78em;
+    bottom: 9em;
+  }
+  .item-5{
+    position: relative;
+    color: rgb(116, 113, 113);
+    padding: 1em;
+    left: 87em;
+    bottom: 12em;
+  }
+  .item-6{
+    position: relative;
+    color: rgb(116, 113, 113);
+    padding: 1em;
+    left: 95em;
+    bottom: 15em;
+  }
+  .item-6:hover > .submenu {
+    position: absolute;
+    display: block;
+    width: auto; 
+  }
+  .item-7 {
+    position: relative;
+    color: rgb(7, 6, 6);
+    padding: 1em;
+    left: 19em;
+    bottom: 12em;
+  }
+  .item-8 {
+    position: relative;
+    color: rgb(116, 113, 113);
+    padding: 1em;
+    left: 66em;
+    bottom: 14em;
+  }
+  * { box-sizing: border-box; }
+.item9{
+  position: relative;
+    float: left;
+    border: thin solid rgb(234, 234, 238);
+    color: white;
+    padding: 1em;
+}
