@@ -47,7 +47,7 @@
     position: relative;
     color: rgb(116, 113, 113);
     padding: 1em;
-    left: 70em;
+    left: 72em;
     bottom: 6em;
   }
   .item-4{
@@ -88,13 +88,59 @@
     color: rgb(116, 113, 113);
     padding: 1em;
     left: 66em;
-    bottom: 14em;
+    bottom: 16em;
   }
-  * { box-sizing: border-box; }
-.item9{
+
+.icono-lupa{
+  width: 1em;
+  height: 1em;
   position: relative;
-    float: left;
-    border: thin solid rgb(234, 234, 238);
-    color: white;
+  right: 1em;
+}
+.item10{
+  position: relative;
+    color: rgb(116, 113, 113);
     padding: 1em;
+    left: 23em;
+    bottom: 5em;
+    color: black;
+}
+.icono-casa{
+  position: relative;
+  width: 3em;
+  height: 2em;
+  right: 12em;
+  bottom: 5em;
+  top: 1px;
+}
+.item10:hover > .submenu{
+  position: absolute;
+  display: block;
+  width: auto; 
+}
+.item11{
+  position: relative;
+    color: rgb(116, 113, 113);
+    padding: 1em;
+    left: 32em;
+    bottom: 8em;
+    color: black;
+}
+.item11:hover > .submenu{
+  position: absolute;
+  display: block;
+  width: auto; 
+}
+.item12{
+  position: relative;
+    color: rgb(116, 113, 113);
+    padding: 1em;
+    left: 42em;
+    bottom: 11em;
+    color: black;
+}
+.item12:hover > .submenu{
+  position: absolute;
+  display: block;
+  width: auto; 
 }
