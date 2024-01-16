@@ -1,95 +1,13 @@
-.item {
-    position: relative;
-    color: rgb(116, 113, 113);
-    padding: 1em;
-    left: 20em;
-    }
-  #menu {
-    background-color: white;
-  }
-  
-  /* CLEARFIX */
-  #menu:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  
-  .submenu { display: none;}
-  
-  .item:hover > .submenu {
-    position: absolute;
-    display: block;
-    width: auto; 
-  }
-  .bandera-españa{
-    width: 2em;
-    height: 2em;
-  }
-  .bandera-reino-unido{
-    width: 2em;
-    height: 2em;
-  }
-  .item-2{
-    position: relative;
-    color: rgb(116, 113, 113);
-    padding: 1em;
-    left: 32em;
-    bottom: 3em;
-  }
-  .item-2:hover > .submenu{
-    position: absolute;
-    display: block;
-    width: auto; 
-  }
-  .item-3{
-    position: relative;
-    color: rgb(116, 113, 113);
-    padding: 1em;
-    left: 72em;
-    bottom: 6em;
-  }
-  .item-4{
-    position: relative;
-    color: rgb(116, 113, 113);
-    padding: 1em;
-    left: 78em;
-    bottom: 9em;
-  }
-  .item-5{
-    position: relative;
-    color: rgb(116, 113, 113);
-    padding: 1em;
-    left: 87em;
-    bottom: 12em;
-  }
-  .item-6{
-    position: relative;
-    color: rgb(116, 113, 113);
-    padding: 1em;
-    left: 95em;
-    bottom: 15em;
-  }
-  .item-6:hover > .submenu {
-    position: absolute;
-    display: block;
-    width: auto; 
-  }
-  .item-7 {
-    position: relative;
-    color: rgb(7, 6, 6);
-    padding: 1em;
-    left: 19em;
-    bottom: 12em;
-  }
-  .item-8 {
-    position: relative;
-    color: rgb(116, 113, 113);
-    padding: 1em;
-    left: 66em;
-    bottom: 16em;
-  }
+
+.bandera-españa{
+  width: 2em;
+  height: 2em;
+}
+.bandera-reino-unido{
+  width: 2em;
+  height: 2em;
+}
+
 
 .icono-lupa{
   width: 1em;
@@ -97,50 +15,76 @@
   position: relative;
   right: 1em;
 }
-.item10{
-  position: relative;
-    color: rgb(116, 113, 113);
-    padding: 1em;
-    left: 23em;
-    bottom: 5em;
-    color: black;
-}
+
+
 .icono-casa{
-  position: relative;
-  width: 3em;
-  height: 2em;
-  right: 12em;
-  bottom: 5em;
-  top: 1px;
+  width: 3.1em;
+  height: 3.1em;
+
 }
-.item10:hover > .submenu{
+
+
+
+.item a {
+  text-decoration: none;
+  color: white;
+}
+
+#menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* CLEARFIX */
+#menu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.submenu { display: none;}
+
+.item:hover > .submenu {
   position: absolute;
   display: block;
   width: auto; 
+  background-color: black;
+  top: 3em;
+
+
 }
-.item11{
+
+.subitem {
+  padding: 1em;
+}
+
+.subitem:hover {
+  background-color: rgb(40, 48, 48);
+}
+
+.black {
+  background-color: black;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.item{
   position: relative;
     color: rgb(116, 113, 113);
     padding: 1em;
-    left: 32em;
-    bottom: 8em;
     color: black;
 }
-.item11:hover > .submenu{
-  position: absolute;
-  display: block;
-  width: auto; 
+
+
+.menu-izquierda {
+  display: flex;
+  justify-content: flex-start;
 }
-.item12{
-  position: relative;
-    color: rgb(116, 113, 113);
-    padding: 1em;
-    left: 42em;
-    bottom: 11em;
-    color: black;
-}
-.item12:hover > .submenu{
-  position: absolute;
-  display: block;
-  width: auto; 
+
+.menu-derecha {
+  display: flex;
+  justify-content: flex-end;
 }
