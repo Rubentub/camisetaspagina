@@ -44,15 +44,19 @@
 
 .submenu { display: none;}
 
+.item:hover > .ksubmenu {
+  position: absolute;
+  display: block;
+  width: auto; 
+}
+
 .item:hover > .submenu {
   position: absolute;
   display: block;
   width: auto; 
   background-color: black;
-  top: 3em;
-
-
 }
+
 
 .subitem {
   padding: 1em;
@@ -68,6 +72,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  top: 2em;
 
 }
 
