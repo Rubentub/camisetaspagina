@@ -93,3 +93,19 @@
   display: flex;
   justify-content: flex-end;
 }
+
+.imagen-black-friday{
+  position: absolute;
+  align-items: center;
+  top: 25%;
+  left: 25%;
+}
+
+.contenedor {
+  position: relative;
+  top: 37vw;
+  border: 0.1vw black solid;
+  width: 54.5vw;
+  height: 10vw;
+  left: 24.5vw;
+}
