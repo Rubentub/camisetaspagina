@@ -104,7 +104,20 @@
 .contenedor {
   position: relative;
   top: 37vw;
-  width: 54.5vw;
+  width: 54vw;
   height: 10vw;
-  left: 24.5vw;
+  left: 24vw;
+}
+
+.contenedor-1{
+  position: relative;
+  top: 63vw;
+  width: 60vw;
+  height: 12vw;
+  left: 24vw;
+}
+
+.front-image{
+  width: 160px;
+  height: 160px;
 }
